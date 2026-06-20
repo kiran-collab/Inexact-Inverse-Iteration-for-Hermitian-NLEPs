@@ -37,12 +37,12 @@ results/results_sensitivity_sketch.csv  sensitivity to sketch size
 results/results_sensitivity_tau.csv     sensitivity to inner tolerance tau
 
 
-FIGURES (PNG)
--------------
-convergence.png     Figure 1: convergence history
-sensitivity.png     Figure 2: sensitivity studies (3 panels)
-figure_alpha.png    alpha parameter study plot
-figure_scaling.png  scaling plot across problem classes
+FIGURES (PNG, in figures/)
+--------------------------
+figures/convergence.png     Figure 1: convergence history
+figures/sensitivity.png     Figure 2: sensitivity studies (3 panels)
+figures/figure_alpha.png    alpha parameter study plot
+figures/figure_scaling.png  scaling plot across problem classes
 
 
 REQUIREMENTS
