@@ -27,14 +27,14 @@ multi_problem_experiments.py
     Run: python multi_problem_experiments.py
 
 
-RESULTS (CSV)
--------------
-results_main.csv                main convergence experiment
-results_alpha.csv               alpha parameter study
-results_multi.csv               multi-problem timing and residual table
-results_sensitivity_input.csv   sensitivity to perturbed input
-results_sensitivity_sketch.csv  sensitivity to sketch size
-results_sensitivity_tau.csv     sensitivity to inner tolerance tau
+RESULTS (CSV, in results/)
+--------------------------
+results/results_main.csv                main convergence experiment
+results/results_alpha.csv               alpha parameter study
+results/results_multi.csv               multi-problem timing and residual table
+results/results_sensitivity_input.csv   sensitivity to perturbed input
+results/results_sensitivity_sketch.csv  sensitivity to sketch size
+results/results_sensitivity_tau.csv     sensitivity to inner tolerance tau
 
 
 FIGURES (PNG)
