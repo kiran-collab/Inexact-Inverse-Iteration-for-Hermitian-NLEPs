@@ -1,0 +1,6 @@
+name,n,sparse,lam_true,natural_floor,res_direct,res_sketch,t_direct_ms,t_sketch_ms,direct_over_sketch
+loaded_string_1D(n=100),100,True,9.8683318683,2.452e-11,2.452e-11,2.452e-11,0.01,24.01,0.00
+loaded_string_1D(n=500),500,True,9.8695527107,9.960e-13,9.961e-13,9.961e-13,0.02,196.32,0.00
+loaded_string_1D(n=2000),2000,True,9.8696011610,6.243e-14,6.244e-14,6.244e-14,0.05,3027.75,0.00
+hadeler(n=200),200,False,-1.4002294170,2.184e-07,2.184e-07,2.184e-07,0.04,116.69,0.00
+"plate2d(N=35,n=1225)",1225,True,19.7266850486,9.682e-11,9.682e-11,9.682e-11,0.10,963.03,0.00

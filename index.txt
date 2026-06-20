@@ -1,0 +1,50 @@
+PROJECT INDEX
+=============
+
+Inexact Inverse Iteration with Sketched Inner Solvers for Eigenvector
+Refinement in Hermitian Nonlinear Eigenvalue Problems (NLEPs)
+
+Numerical experiments accompanying the paper. Implements inexact inverse
+iteration (Algorithm 4.2) with a sketch-and-precondition LSQR inner solver
+(Algorithm 6.1) for Hermitian nonlinear eigenvalue problems.
+
+
+SOURCE CODE
+-----------
+numerical_experiments.py
+    Main experiments and three sensitivity studies (Section 8) on the
+    loaded_string NLEP. Includes the NLEP definition, reference eigenvalue
+    computation via quadratic linearisation, sketch-and-precondition LSQR,
+    and inexact inverse iteration.
+    Run: python numerical_experiments.py
+
+multi_problem_experiments.py
+    Multi-problem scaling study across three NLEP classes:
+      - loaded_string (1D rational Hermitian, n in {100, 500, 2000})
+      - hadeler       (transcendental Hermitian, n = 200, dense)
+      - plate2d       (2D rational Hermitian, sparse, n = 2500)
+    Compares direct (LU) vs sketched LSQR inner solvers.
+    Run: python multi_problem_experiments.py
+
+
+RESULTS (CSV)
+-------------
+results_main.csv                main convergence experiment
+results_alpha.csv               alpha parameter study
+results_multi.csv               multi-problem timing and residual table
+results_sensitivity_input.csv   sensitivity to perturbed input
+results_sensitivity_sketch.csv  sensitivity to sketch size
+results_sensitivity_tau.csv     sensitivity to inner tolerance tau
+
+
+FIGURES (PNG)
+-------------
+convergence.png     Figure 1: convergence history
+sensitivity.png     Figure 2: sensitivity studies (3 panels)
+figure_alpha.png    alpha parameter study plot
+figure_scaling.png  scaling plot across problem classes
+
+
+REQUIREMENTS
+------------
+Python 3 with: numpy, scipy, matplotlib

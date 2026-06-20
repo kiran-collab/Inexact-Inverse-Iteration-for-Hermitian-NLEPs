@@ -1,0 +1,6 @@
+name,n,alpha_random_baseline_1_over_sqrtn,alpha_loose_median (LSQR-stopped at tau=1e-4),alpha_loose_max,"alpha_tight_median (LSQR over-converged, tau=1e-12)",alpha_tight_max,alpha_direct_median (LU back-sub residual)
+loaded_string_1D(n=100),100,1.000e-01,9.285e-03,3.531e-02,2.954e-02,4.575e-02,2.098e-01
+loaded_string_1D(n=500),500,4.472e-02,3.006e-03,6.523e-03,9.104e-03,2.724e-02,4.503e-02
+loaded_string_1D(n=2000),2000,2.236e-02,1.982e-03,5.535e-03,2.674e-03,4.449e-03,2.964e-02
+hadeler(n=200),200,7.071e-02,8.534e-04,1.039e-03,5.812e-02,1.792e-01,3.859e-02
+"plate2d(N=35,n=1225)",1225,2.857e-02,8.874e-04,1.100e-03,1.470e-03,1.098e-02,3.923e-02
